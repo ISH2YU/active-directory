@@ -3,7 +3,7 @@ An obsidian vault that consists of things related to Active Directory. Right now
 
 ![graph_view](https://github.com/user-attachments/assets/494f0ecd-b835-4318-9d4a-4b5f06255fbc)
 
-In your Obsidian Vault, install these Community Plugins
+In your newly created Obsidian Vault, install these Community Plugins
 
 ![setup](https://github.com/user-attachments/assets/273da5a0-9c9e-4564-ace8-ac2aa3f682b9)
 
