@@ -5,6 +5,8 @@ An obsidian vault that consists of things related to Active Directory. Right now
 
 
 ## Instructions
+Install Git
+
 In your newly created Obsidian Vault, install these Community Plugins
 
 ![setup](https://github.com/user-attachments/assets/273da5a0-9c9e-4564-ace8-ac2aa3f682b9)
