@@ -2,7 +2,9 @@
 tags:
   - domain-enumeration
 ---
-[[PowerShell]] on steroids
+[[PowerShell]] on steroids: 
+
+[Documentation](https://powersploit.readthedocs.io/en/latest/)
 ## Finding the current domain
 
 ```powershell title:"Get the current domain"

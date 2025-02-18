@@ -1,6 +1,5 @@
 ---
 tags:
-  - domain-enumeration
   - general
 cssclasses:
 ---
