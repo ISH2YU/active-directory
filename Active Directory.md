@@ -9,6 +9,7 @@ tags:
 - Now there is complete control of not just the domains but also the users, groups and machines inside an active directory network. Every single thing that is part of an organization's IT infrastructure can be managed, and controlled.
 ##### Organizational Unit (OU)
 - Building blocks of a domain including computers, users, groups etc.
+- The AD catalog consists of several objects with different attributes which exists for different purposes. You would categorize them using OUs.
 ##### Forest
 - Security boundary
 - May contain multiple domains and those domains may contain multiple OUs
