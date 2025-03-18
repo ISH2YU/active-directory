@@ -5,6 +5,11 @@ tags:
 [[PowerShell]] on steroids: 
 
 [Documentation](https://powersploit.readthedocs.io/en/latest/)
+
+```powershell title:"Importing"
+. .\PowerView.ps1
+Import-Module .\PowerView.ps1
+```
 ## Finding the current domain
 
 ```powershell title:"Get the current domain"
