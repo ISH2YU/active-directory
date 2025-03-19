@@ -5,11 +5,13 @@ cssclasses:
   - Rubeus
   - s4u
   - MimiKatz
-  - ActiveDirectory Module
+  - ActiveDirectory
+  - Module
 ---
+![[Kerberos_Delegation.svg]]]
 - Resource Based [[Constrained Delegation]]
 - This moves delegation authority to the resource/service administrator
-- Instead of SPNs on msDs-AllowedToDelegateTo on the front-end service like the web service in our example, access in this case is controlled by security descriptor of msDS-AllowedToActOnBehalfOfOtherIdentity (visible as PrincipalsAllowedToDelegateToAccount) on the resource/service.
+- Instead of SPNs on `msDs-AllowedToDelegateTo` on the front-end service like the web service in this example, access in this case is controlled by security descriptor of `msDS-AllowedToActOnBehalfOfOtherIdentity` (visible as `PrincipalsAllowedToDelegateToAccount`) on the resource/service.
 - That is, the resource/service administrator can configure this delegation whereas for other types, SeEnableDelegation privileges are required which are, by default, available only to Domain Admins.
 - The security descriptor on the second hop can determine who can access it, not the first hop.
 
