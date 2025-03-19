@@ -9,8 +9,6 @@ The default [[PowerShell]] module for enumerating objects in [[Active Directory]
 Import-Module Microsoft.ActiveDirectory.Management.dll
 ```
 
-## Finding the current domain
-
 ```powershell title:"Get the current domain"
 Get-ADDomain
 ```

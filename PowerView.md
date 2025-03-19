@@ -10,7 +10,6 @@ tags:
 . .\PowerView.ps1
 Import-Module .\PowerView.ps1
 ```
-## Finding the current domain
 
 ```powershell title:"Get the current domain"
 Get-Domain
