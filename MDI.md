@@ -16,7 +16,6 @@ cssclasses:
 	- Lateral Movement (PTH, OPTH etc.)
 	- Domain Dominance (DCSync, [[Golden Ticket]], [[Skeleton Key]] etc.)
 	- Exfiltration
-
 ## Bypass
 - The key is to avoid talking to the DC as long as possible and make the traffic that we generate appear benign.
 - To bypass DCSync detection, target users which are whitelisted.
