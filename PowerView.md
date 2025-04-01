@@ -124,6 +124,10 @@ Get-LastLoggedOn -ComputerName dcorp-adminsrv
 ###### Finding shares on hosts in the current domain
 
 ```powershell title:"Find shares on hosts in the current domain"
+Find-DomainShare
+```
+
+```powershell title:"Find shares on hosts in the current domain (faster)"
 Invoke-ShareFinder -Verbose
 ```
 
