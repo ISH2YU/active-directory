@@ -12,7 +12,8 @@ Enables control on the ability of a process to access objects and other resource
 #### SID Diagram
 
 
-![[SID.svg]]()
+![[SID.svg]]
+
 #### Access Control List (ACL)
 ![[accctrl1.png]]
 - It is a list of Access Control Entries (ACE) - ACE corresponds to individual permission or audit access. It helps determining who has permissions and what can be done on an object. There are two types of ACLs:
