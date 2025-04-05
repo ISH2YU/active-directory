@@ -44,6 +44,7 @@ Get-Command -Module <module_name>
 1. powershell -ExecutionPolicy bypass
 2. powershell -c cmd
 ```
+
 ```powershell title:"bypass execution policy using powershell"
 $env:PSExecutionPolicyPreference="bypass"
 ```
