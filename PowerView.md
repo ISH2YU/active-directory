@@ -39,7 +39,7 @@ Get-DomainController
 ```
 
 ```powershell title:"Get the domain controller for another domain"
-Get-DomainController -Domain moneycorp.local
+Get-DomainController -Domain domain.com
 ```
 
 ###### Finding users in a domain
@@ -80,7 +80,7 @@ Get-DomainGroup *admin*
 ```
 
 ```powershell title:"Get the SID of the Enterprise Admins group"
-Get-DomainGroup -Identity *Enterprise Admins* -Domain moneycorp.local -Properties objectsid
+Get-DomainGroup -Identity *Enterprise Admins* -Domain domain.com -Properties objectsid
 ```
 
 ###### Finding members of a group
@@ -118,7 +118,7 @@ Get-LoggedonLocal -ComputerName fqdn\computer-name
 ```
 
 ```powershell title:"Get the last logged user on a computer (needs adminstrative rights and remote registry enabled on the target)"
-Get-LastLoggedOn -ComputerName dcorp-adminsrv
+Get-LastLoggedOn -ComputerName computer-name
 ```
 
 ###### Finding shares on hosts in the current domain
