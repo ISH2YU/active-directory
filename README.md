@@ -12,3 +12,7 @@ In your newly created Obsidian Vault, install these Community Plugins
 ![setup](https://github.com/user-attachments/assets/273da5a0-9c9e-4564-ace8-ac2aa3f682b9)
 
 In the command palette, choose Git: clone, and enter the link of this repository. You will be prompted to select a directory, simply enter the name "active-directory". All the files in this repository will be cloned into this directory. Restart Obsidian after cloning has completed, so that all files are successfully indexed.
+
+## Contents
+- Notes I took during CRTP.
+- Link to Setup instructions.
