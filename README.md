@@ -16,3 +16,7 @@ In the command palette, choose Git: clone, and enter the link of this repository
 ## Contents
 - Notes I took during CRTP.
 - Link to Setup instructions.
+
+## GOAD Network Topology
+
+![image](https://github.com/user-attachments/assets/37f292e0-f2d9-4b26-9b0c-61cdbce2f1b1)
