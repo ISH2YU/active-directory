@@ -135,16 +135,6 @@
 			"height":60
 		},
 		{
-			"id":"21ed5be5c50c6c1a",
-			"type":"text",
-			"text":"token",
-			"styleAttributes":{"textAlign":"center"},
-			"x":240,
-			"y":450,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"cd9c6afe9fd5610a",
 			"type":"text",
 			"text":"crypto",
@@ -181,6 +171,16 @@
 			"styleAttributes":{"shape":"pill","textAlign":"center"},
 			"x":-1340,
 			"y":360,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"21ed5be5c50c6c1a",
+			"type":"text",
+			"text":"token",
+			"styleAttributes":{"textAlign":"center"},
+			"x":280,
+			"y":340,
 			"width":260,
 			"height":60
 		}
@@ -259,7 +259,7 @@
 			"fromNode":"56eb9f3d93f32d3e",
 			"fromSide":"bottom",
 			"toNode":"21ed5be5c50c6c1a",
-			"toSide":"top"
+			"toSide":"left"
 		},
 		{
 			"id":"e93223eb22015db5",
