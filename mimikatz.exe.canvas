@@ -1,6 +1,49 @@
 {
 	"nodes":[
-		{"id":"96b7c8f3b6eb7eae","x":-180,"y":-40,"width":250,"height":60,"type":"text","text":"mimikatz.exe"}
+		{
+			"id":"56eb9f3d93f32d3e",
+			"type":"text",
+			"text":"mimikatz.exe",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-260,
+			"y":60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"5a4a268cfe3472e6",
+			"type":"text",
+			"text":"sekurlsa",
+			"styleAttributes":{},
+			"x":-600,
+			"y":-120,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"2fabefd6d402848b",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":80,
+			"y":-80,
+			"width":260,
+			"height":60
+		}
 	],
-	"edges":[]
+	"edges":[
+		{
+			"id":"09f315b6124bcfc2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"56eb9f3d93f32d3e",
+			"fromSide":"left",
+			"toNode":"5a4a268cfe3472e6",
+			"toSide":"right"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }
