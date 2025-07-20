@@ -22,46 +22,6 @@
 			"height":60
 		},
 		{
-			"id":"5a4a268cfe3472e6",
-			"type":"text",
-			"text":"sekurlsa",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-740,
-			"y":-240,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"d8380fb980b5a6d1",
-			"type":"text",
-			"text":"tickets",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-1140,
-			"y":-400,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"0f6bfe899427e2e7",
-			"type":"text",
-			"text":"logonpasswords",
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":-1140,
-			"y":-100,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"7649e1289ebc13b3",
-			"type":"text",
-			"text":"sid",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-260,
-			"y":-360,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"2fabefd6d402848b",
 			"type":"text",
 			"text":"privilege",
@@ -81,16 +41,6 @@
 			},
 			"x":180,
 			"y":60,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"e1b404e9e91ba257",
-			"type":"text",
-			"text":"lsadump",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-840,
-			"y":190,
 			"width":260,
 			"height":60
 		},
@@ -135,16 +85,6 @@
 			"height":60
 		},
 		{
-			"id":"fb8bed087994e428",
-			"type":"text",
-			"text":"sam",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-1340,
-			"y":60,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"e5f43b1eee4cbdf0",
 			"type":"text",
 			"text":"lsa",
@@ -175,12 +115,82 @@
 			"height":60
 		},
 		{
+			"id":"5a4a268cfe3472e6",
+			"type":"text",
+			"text":"sekurlsa",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-780,
+			"y":-160,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"cd9c6afe9fd5610a",
 			"type":"text",
 			"text":"crypto",
 			"styleAttributes":{"textAlign":"center"},
 			"x":-780,
-			"y":370,
+			"y":480,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"e1b404e9e91ba257",
+			"type":"text",
+			"text":"lsadump",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-840,
+			"y":260,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"fb8bed087994e428",
+			"type":"text",
+			"text":"sam",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1340,
+			"y":120,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"0f6bfe899427e2e7",
+			"type":"text",
+			"text":"logonpasswords",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"x":-1220,
+			"y":-60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"d8380fb980b5a6d1",
+			"type":"text",
+			"text":"tickets",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1210,
+			"y":-270,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"febf805b207add4b",
+			"type":"text",
+			"text":"misc",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-710,
+			"y":-440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"7649e1289ebc13b3",
+			"type":"text",
+			"text":"ngc",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-260,
+			"y":-560,
 			"width":260,
 			"height":60
 		}
@@ -343,6 +353,15 @@
 			"fromSide":"left",
 			"toNode":"e5f43b1eee4cbdf0",
 			"toSide":"right"
+		},
+		{
+			"id":"f60f11cee659dbb3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"56eb9f3d93f32d3e",
+			"fromSide":"top",
+			"toNode":"febf805b207add4b",
+			"toSide":"bottom"
 		}
 	],
 	"metadata":{
