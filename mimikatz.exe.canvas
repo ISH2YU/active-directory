@@ -175,16 +175,6 @@
 			"height":60
 		},
 		{
-			"id":"a8d25346f2f6202e",
-			"type":"text",
-			"text":"tgt",
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":310,
-			"y":900,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"f9f91d9f2e4259c6",
 			"type":"text",
 			"text":"list",
@@ -231,6 +221,16 @@
 			"styleAttributes":{"shape":"pill","textAlign":"center"},
 			"x":-260,
 			"y":1040,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a8d25346f2f6202e",
+			"type":"text",
+			"text":"tgt",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"x":340,
+			"y":870,
 			"width":260,
 			"height":60
 		}
