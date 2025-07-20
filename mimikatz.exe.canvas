@@ -129,28 +129,6 @@
 			"color":"3"
 		},
 		{
-			"id":"564aa9d0ff3a4bb4",
-			"type":"text",
-			"text":"## ask",
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":-840,
-			"y":870,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"6b8ebb5b2a170ca1",
-			"type":"text",
-			"text":"## hash",
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":-760,
-			"y":980,
-			"width":260,
-			"height":60,
-			"color":"3"
-		},
-		{
 			"id":"a8d25346f2f6202e",
 			"type":"text",
 			"text":"## tgt",
@@ -160,17 +138,6 @@
 			"width":260,
 			"height":60,
 			"color":"3"
-		},
-		{
-			"id":"3138c1f26b2dab06",
-			"type":"text",
-			"text":"## ptc\nPass the ccache",
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":-710,
-			"y":1160,
-			"width":330,
-			"height":100,
-			"color":"2"
 		},
 		{
 			"id":"72a89318e4d2f12c",
@@ -243,7 +210,7 @@
 		{
 			"id":"f9f91d9f2e4259c6",
 			"type":"text",
-			"text":"## list\ndisplay ticket available on client machine\n/export - write TGT tickets to disk\n",
+			"text":"## list\ndisplay ticket available on client machine\n`/export` - write TGT tickets to disk\n",
 			"styleAttributes":{"textAlign":"center","shape":"pill"},
 			"x":470,
 			"y":660,
@@ -260,6 +227,39 @@
 			"y":720,
 			"width":260,
 			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"3138c1f26b2dab06",
+			"type":"text",
+			"text":"## ptc\n**Pass the ccache**",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"x":-720,
+			"y":1230,
+			"width":330,
+			"height":100,
+			"color":"2"
+		},
+		{
+			"id":"6b8ebb5b2a170ca1",
+			"type":"text",
+			"text":"## hash",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"x":-900,
+			"y":1100,
+			"width":260,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"564aa9d0ff3a4bb4",
+			"type":"text",
+			"text":"## ask\n**retrieve a service ticket**\n`/target:service/machine1.domain.fqdn`\n",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"x":-1250,
+			"y":880,
+			"width":340,
+			"height":180,
 			"color":"2"
 		}
 	],
