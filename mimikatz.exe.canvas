@@ -32,19 +32,6 @@
 			"height":60
 		},
 		{
-			"id":"16cfcdfc503b07e3",
-			"type":"text",
-			"text":"# tgt",
-			"styleAttributes":{
-				"textAlign":"center",
-				"shape":null
-			},
-			"x":180,
-			"y":60,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"1d3aa7727c0b6bea",
 			"type":"text",
 			"text":"# kerberos",
@@ -52,7 +39,8 @@
 			"x":-260,
 			"y":580,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"4"
 		},
 		{
 			"id":"e5f43b1eee4cbdf0",
@@ -72,7 +60,8 @@
 			"x":310,
 			"y":340,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"4"
 		},
 		{
 			"id":"9591cfd08b17db42",
@@ -172,17 +161,8 @@
 			"x":270,
 			"y":1010,
 			"width":260,
-			"height":60
-		},
-		{
-			"id":"f9f91d9f2e4259c6",
-			"type":"text",
-			"text":"## list",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":400,
-			"y":700,
-			"width":260,
-			"height":60
+			"height":60,
+			"color":"3"
 		},
 		{
 			"id":"564aa9d0ff3a4bb4",
@@ -192,7 +172,8 @@
 			"x":-840,
 			"y":870,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"2"
 		},
 		{
 			"id":"6b8ebb5b2a170ca1",
@@ -202,7 +183,8 @@
 			"x":-760,
 			"y":980,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"3"
 		},
 		{
 			"id":"d74a26fede8723ec",
@@ -212,17 +194,8 @@
 			"x":-910,
 			"y":760,
 			"width":260,
-			"height":60
-		},
-		{
-			"id":"72a89318e4d2f12c",
-			"type":"text",
-			"text":"## golden",
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":-260,
-			"y":1040,
-			"width":260,
-			"height":60
+			"height":60,
+			"color":"2"
 		},
 		{
 			"id":"a8d25346f2f6202e",
@@ -239,10 +212,47 @@
 			"type":"text",
 			"text":"## ptc\nPass the ccache",
 			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":-390,
-			"y":1240,
+			"x":-710,
+			"y":1160,
 			"width":330,
-			"height":100
+			"height":100,
+			"color":"2"
+		},
+		{
+			"id":"72a89318e4d2f12c",
+			"type":"text",
+			"text":"## golden",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"x":140,
+			"y":1200,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"f9f91d9f2e4259c6",
+			"type":"text",
+			"text":"## list\ndisplay ticket available on client machine\n/export - write TGT tickets to disk\n",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":440,
+			"y":680,
+			"width":410,
+			"height":160,
+			"color":"3"
+		},
+		{
+			"id":"16cfcdfc503b07e3",
+			"type":"text",
+			"text":"# tgt",
+			"styleAttributes":{
+				"textAlign":"center",
+				"shape":null
+			},
+			"x":340,
+			"y":140,
+			"width":260,
+			"height":60,
+			"color":"4"
 		}
 	],
 	"edges":[
@@ -365,7 +375,7 @@
 			"fromNode":"1d3aa7727c0b6bea",
 			"fromSide":"bottom",
 			"toNode":"72a89318e4d2f12c",
-			"toSide":"top"
+			"toSide":"left"
 		},
 		{
 			"id":"12b9a4f6ccee3be1",
@@ -447,6 +457,15 @@
 			"fromNode":"1d3aa7727c0b6bea",
 			"fromSide":"bottom",
 			"toNode":"6b8ebb5b2a170ca1",
+			"toSide":"right"
+		},
+		{
+			"id":"eaf60ed9279e06b0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1d3aa7727c0b6bea",
+			"fromSide":"bottom",
+			"toNode":"3138c1f26b2dab06",
 			"toSide":"right"
 		}
 	],
